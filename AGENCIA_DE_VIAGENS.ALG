@@ -1,15 +1,15 @@
 Algoritmo "MENU_AGENCIAS_DE_VIAGENS"
 // Autor(a)    : Caroline Pacheco
 // Data atual  : 22/06/2022
-// DescriÁ„o   : Usando conceitos de programaÁ„o estruturada (Vetor), criar em pseudocÛdigo
-// um menu para simular um cadastro para uma agÍncia de viagens com as seguintes funÁıes:
-// funÁ„o: cadastro de cliente
-// FunÁ„o: cadastro de destino
+// Descri√ß√£o   : Usando conceitos de programa√ß√£o estruturada (Vetor), criar em pseudoc√≥digo
+// um menu para simular um cadastro para uma ag√™ncia de viagens com as seguintes fun√ß√µes:
+// fun√ß√£o: cadastro de cliente
+// Fun√ß√£o: cadastro de destino
 // E consulta para cada estrutura de dados
 
 
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
 
    clientes: vetor [1..10,1..4] de caractere // vetor de cadastro de clientes
    destinos: vetor [1..10,1..4] de caractere // vetor de cadastro de destinos
@@ -24,19 +24,19 @@ procedimento cadastrarCliente
 var
 
    codCli, nome, sobrenome, cpf : caractere  // variaveis para dados do cliente
-   qtd, i, j : inteiro // variaveis de relaÁ„o com os dados do cliente
+   qtd, i, j : inteiro // variaveis de rela√ß√£o com os dados do cliente
    opc : inteiro
 inicio
    limpatela
    escreval("        CADASTRO DOS CLIENTES          ")
    escreval("*************************************")
    escreva("Deseja cadastrar quantos clientes? -> ")
-   leia(qtd) // ler a quantidade de clientes o usuario ir· cadastrar
+   leia(qtd) // ler a quantidade de clientes o usuario ir√° cadastrar
 
    qtdCli <- qtd // grava a quantidade na variavel qtdCli
 
-   para i de 1 ate qtd faca // laÁo para ler os dados passado pelo usuairo e salvo nas variaveis
-      escreva("Digite o C”DIGO do cliente: -> ")
+   para i de 1 ate qtd faca // la√ßo para ler os dados passado pelo usuairo e salvo nas variaveis
+      escreva("Digite o C√ìDIGO do cliente: -> ")
       leia(codCli) // ler o codigo do cliente e salva na variavel codCli
       escreva("Digite o NOME do cliente: -> ")
       leia(nome) // ler o nome do cliente e salva na variavel nome
@@ -60,11 +60,11 @@ inicio
    escreval(qtd, " Cadastro feito com sucesso! ")
    escreval("")
    para j de 1 ate qtd faca
-      escreval("C”DIGO: ", clientes[j, 1], "| NOME: ", clientes[j, 2], "| SOBRENOME: ", clientes[j, 3], "| CPF: " ,clientes[j, 4])
+      escreval("C√ìDIGO: ", clientes[j, 1], "| NOME: ", clientes[j, 2], "| SOBRENOME: ", clientes[j, 3], "| CPF: " ,clientes[j, 4])
    fimpara
 
    escreval("")
-   escreval("Deseja retornar ao menu principal? SIM[1] | N√O[2] | SAIR[3]")
+   escreval("Deseja retornar ao menu principal? SIM[1] | N√ÉO[2] | SAIR[3]")
    leia(opc)
    escolha opc
    caso 1
@@ -86,25 +86,25 @@ procedimento cadastrarDestino
 var
 
    codDes, cidade, estado, pais : caractere  // variaveis para os dados do destino
-   qtd, i, j : inteiro // variaveis de relaÁ„o com os dados do destino
+   qtd, i, j : inteiro // variaveis de rela√ß√£o com os dados do destino
    opc : inteiro
 inicio
    limpatela
    escreval("       CADASTRO DOS DESTINOS         ")
    escreval("*************************************")
    escreva("Deseja cadastrar quantos destinos? -> ")
-   leia(qtd) // ler a quantidade de Destinos que o usuario ir· cadastrar
+   leia(qtd) // ler a quantidade de Destinos que o usuario ir√° cadastrar
 
    qtdDes <- qtd // grava a quantidade na variavel qtdDes
 
-   para i de 1 ate qtd faca // laÁo para ler os dados passado pelo usuairo e salvo nas variaveis
-      escreva("Digite o C”DIGO DO DESTINO: -> ")
+   para i de 1 ate qtd faca // la√ßo para ler os dados passado pelo usuairo e salvo nas variaveis
+      escreva("Digite o C√ìDIGO DO DESTINO: -> ")
       leia(codDes) // ler o codigo do destino e salva na variavel codDes
       escreva("Digite o NOME DA CIDADE: -> ")
       leia(cidade) // ler a cidade e salva na variavel cidade
       escreva("Digite o NOME DO ESTADO: -> ")
       leia(estado) // ler o estado e salva na variavel estado
-      escreva("Digite o NOME DO PAÕS: -> ")
+      escreva("Digite o NOME DO PA√çS: -> ")
       leia(pais) // ler o pais e salva na variavel pais
 
       escreval("================================================")
@@ -122,11 +122,11 @@ inicio
    escreval(qtd, " Cadastro feito com sucesso! ")
    escreval("")
    para j de 1 ate qtd faca
-      escreval("C”DIGO: ", destinos[j, 1], "| CIDADE: ", destinos[j, 2], "| ESTADO: ", destinos[j, 3], "| PAIS: " ,destinos[j, 4])
+      escreval("C√ìDIGO: ", destinos[j, 1], "| CIDADE: ", destinos[j, 2], "| ESTADO: ", destinos[j, 3], "| PAIS: " ,destinos[j, 4])
    fimpara
 
    escreval("")
-   escreval("Deseja retornar ao menu principal? SIM[1] | N√O[2] | SAIR[3]")
+   escreval("Deseja retornar ao menu principal? SIM[1] | N√ÉO[2] | SAIR[3]")
    leia(opc)
    escolha opc
    caso 1
@@ -161,7 +161,7 @@ inicio
          encontrado := verdadeiro
 
          escreval("DADOS DO CLIENTE")
-         escreval("C”DIGO: ", clientes[i,1])
+         escreval("C√ìDIGO: ", clientes[i,1])
          escreval("NOME: ", clientes[i,2])
          escreval("SOBRENOME: ", clientes[i,3])
          escreval("CPF: ", clientes[i,4])
@@ -171,11 +171,11 @@ inicio
       fimse
    fimpara
    se encontrado = falso entao
-      escreval("Cliente n„o cadastrado")
+      escreval("Cliente n√£o cadastrado")
    fimse
 
    escreval("")
-   escreval("Deseja retornar ao menu principal? SIM[1] | N√O[2]| SAIR[3]")
+   escreval("Deseja retornar ao menu principal? SIM[1] | N√ÉO[2]| SAIR[3]")
    leia(opc)
    escolha opc
    caso 1
@@ -191,7 +191,7 @@ inicio
 
 fimprocedimento
 
-// Consulta cliente cadastrado pelo cÛdigo
+// Consulta cliente cadastrado pelo c√≥digo
 
 procedimento consultaDestino
 var
@@ -202,28 +202,28 @@ var
 inicio
    limpatela
    escreval("CONSULTA DOS DESTINOS")
-   escreva("Digite o cÛdigo do destino: ")
+   escreva("Digite o c√≥digo do destino: ")
    leia(consulta)
    para i de 1 ate qtdDes faca
       se consulta = destinos[i,1] entao
          encontrado := verdadeiro
 
          escreval("DADOS DO DESTINO")
-         escreval("C”DIGO: ", destinos[i,1])
+         escreval("C√ìDIGO: ", destinos[i,1])
          escreval("CIDADE: ", destinos[i,2])
          escreval("ESTADO: ", destinos[i,3])
-         escreval("PAÕS: ", destinos[i,4])
+         escreval("PA√çS: ", destinos[i,4])
          interrompa
       senao
          encontrado := falso
       fimse
    fimpara
    se encontrado = falso entao
-      escreval("Destino n„o cadastrado")
+      escreval("Destino n√£o cadastrado")
    fimse
 
    escreval("")
-   escreval("Deseja retornar ao menu principal? SIM[1] | N√O[2] | SAIR[3]")
+   escreval("Deseja retornar ao menu principal? SIM[1] | N√ÉO[2] | SAIR[3]")
    leia(opc)
    escolha opc
    caso 1
@@ -243,10 +243,15 @@ procedimento logomarca
 var
    opc: inteiro
 inicio
-   limpatela
-   escreval("                     NOSSA LOGOMARCA                         ")
+
+
+   //limpatela
+   timer (500)
+   
+   escreval("                          CTHOUR                       ")
    escreval("*************************************************************")
    escreval("")
+   escreval("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
    escreval("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
    escreval("XX       XX          XX  XXXX  XX       XX  XXX  XX         XX")
    escreval("XX  XXXXXXXXXXX  XXXXXX  XXXX  XX  XXX  XX  XXX  XX  XXXXX  XX")
@@ -254,19 +259,13 @@ inicio
    escreval("XX  XXXXXXXXXXX  XXXXXX  XXXX  XX  XXX  XX  XXX  XX  XXX  XXXX")
    escreval("XX       XXXXXX  XXXXXX  XXXX  XX       XX       XX  XXXXX  XX")
    escreval("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-
-   escreval("")
-   escreval("Deseja retornar ao menu principal? SIM[1] | SAIR[2]")
-   leia(opc)
-   escolha opc
-   caso 1
-      menu
-   caso 2
-      escreval("Obrigado por usar a CTHOUR - VIAGENS!")
-   outrocaso
-      escreval("opcao invalida")
-   fimescolha
-
+   escreval("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+   timer (100)
+   escreval("INICIANDO O SISTEMA ......")
+   timer (1000)
+   limpatela
+   timer (0)
+   menu
 fimprocedimento
 
 procedimento menu
@@ -276,13 +275,14 @@ var
 
 inicio
    limpatela
+   escreval("             BEM-VINDOS A        ")
    escreval("           CTHOUR - VIAGENS          ")
    escreval("*************************************")
    escreval(" ")
-   escreval("Cadastrar  |  Cadastrar | Consultar  | Consultar  | Logomarca[6]")
-   escreval("Cliente[1] | Destino[2] | Cliente[3] | Destino[4] | Sair[5]")
+   escreval("Cadastrar  |  Cadastrar | Consultar  | Consultar  | Logomarca[5]")
+   escreval("Cliente[1] | Destino[2] | Cliente[3] | Destino[4] | Sair[6]")
    escreval("****************************************************************")
-   escreva("Escolha uma opÁ„o -> ")
+   escreva("Escolha uma op√ß√£o -> ")
    leia(opc)
    escolha opc
    caso 1
@@ -296,12 +296,12 @@ inicio
       consultaDestino
       //interrompa
    caso 5
+      logomarca
+   caso 6
       limpatela
       escreval("         Sistema encerrado........")
       escreval("Obrigado por usar a CTHOUR - VIAGENS!")
       escreval("")
-   caso 6
-      logomarca
    outrocaso
       escreval("opcao invalida")
       menu
@@ -311,7 +311,7 @@ fimprocedimento
 // ponto de partida
 Inicio
 
-   escreval("             BEM-VINDOS A        ")
+   logomarca
    menu
 
 Fimalgoritmo
