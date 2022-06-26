@@ -247,7 +247,7 @@ inicio
 
    //limpatela
    timer (500)
-   
+
    escreval("                          CTHOUR                       ")
    escreval("*************************************************************")
    escreval("")
@@ -262,7 +262,7 @@ inicio
    escreval("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
    timer (100)
    escreval("INICIANDO O SISTEMA ......")
-   timer (1000)
+   timer (1100)
    limpatela
    timer (0)
    menu
@@ -275,9 +275,9 @@ var
 
 inicio
    limpatela
-   escreval("             BEM-VINDOS A        ")
-   escreval("           CTHOUR - VIAGENS          ")
-   escreval("*************************************")
+   escreval("                       BEM-VINDOS A                             ")
+   escreval("                      CTHOUR - VIAGENS                          ")
+   escreval("****************************************************************")
    escreval(" ")
    escreval("Cadastrar  |  Cadastrar | Consultar  | Consultar  | Logomarca[5]")
    escreval("Cliente[1] | Destino[2] | Cliente[3] | Destino[4] | Sair[6]")
