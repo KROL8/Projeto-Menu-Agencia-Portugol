@@ -75,7 +75,7 @@ inicio
       escreval("     Sistema encerrado........")
       escreval("Obrigado por usar a CTHOUR - VIAGENS!")
    outrocaso
-      escreval("opcao invalida")
+      escreval("opção inválida")
    fimescolha
 fimprocedimento
 
@@ -137,7 +137,7 @@ inicio
       escreval("     Sistema encerrado........")
       escreval("Obrigado por usar a CTHOUR - VIAGENS!")
    outrocaso
-      escreval("opcao invalida")
+      escreval("opção invalida")
    fimescolha
 
 fimprocedimento
@@ -186,7 +186,7 @@ inicio
       escreval("     Sistema encerrado........")
       escreval("Obrigado por usar a CTHOUR - VIAGENS!")
    outrocaso
-      escreval("opcao invalida")
+      escreval("opção invalida")
    fimescolha
 
 fimprocedimento
@@ -234,7 +234,7 @@ inicio
       escreval("     Sistema encerrado........")
       escreval("Obrigado por usar a CTHOUR - VIAGENS!")
    outrocaso
-      escreval("opcao invalida")
+      escreval("opção inválida")
    fimescolha
 fimprocedimento
 
@@ -303,7 +303,7 @@ inicio
       escreval("Obrigado por usar a CTHOUR - VIAGENS!")
       escreval("")
    outrocaso
-      escreval("opcao invalida")
+      escreval("opção inválida")
       menu
    fimescolha
 fimprocedimento
