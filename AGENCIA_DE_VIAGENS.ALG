@@ -279,7 +279,7 @@ inicio
    escreval("                      CTHOUR - VIAGENS                          ")
    escreval("****************************************************************")
    escreval(" ")
-   escreval("Cadastrar  |  Cadastrar | Consultar  | Consultar  | Logomarca[5]")
+   escreval("Cadastrar  | Cadastrar  | Consultar  | Consultar  | Logomarca[5]")
    escreval("Cliente[1] | Destino[2] | Cliente[3] | Destino[4] | Sair[6]")
    escreval("****************************************************************")
    escreva("Escolha uma opção -> ")
