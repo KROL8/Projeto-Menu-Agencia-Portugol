@@ -1,7 +1,7 @@
 # ProjetoMenuAgenciaPortugol
 
-- Pseudocódigo para uma Agencia de Viagens
-- O Algoritmo conta com as seguintes funções:
+* Pseudocódigo para uma Agencia de Viagens
+* O Algoritmo conta com as seguintes funções:
 * função: cadastro de cliente
 * Função: cadastro de destino
 * E consulta para cada estrutura de dados
